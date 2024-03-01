@@ -1,0 +1,11 @@
+name: MlgRush
+version: '${project.version}'
+main: mlgrush.MlgRush
+api-version: '1.20'
+
+authors: [Silal]
+softdepend: [WorldEdit]
+
+commands:
+  mlg:
+    description: queue/unqueue for games
