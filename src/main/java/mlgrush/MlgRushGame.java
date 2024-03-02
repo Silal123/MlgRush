@@ -268,6 +268,7 @@ public class MlgRushGame {
 
         resetGame();
         removeAllBlocks();
+        tryStartGame();
     }
 
     public static void killPlayer(Player p) {
